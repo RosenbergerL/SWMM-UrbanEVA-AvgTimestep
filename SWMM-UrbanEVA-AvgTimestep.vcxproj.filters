@@ -1,0 +1,259 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Quelldateien">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Headerdateien">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Ressourcendateien">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Files\.gitignore">
+      <Filter>Quelldateien</Filter>
+    </None>
+    <None Include="Files\README.md">
+      <Filter>Quelldateien</Filter>
+    </None>
+    <None Include="Files\xsect.dat">
+      <Filter>Quelldateien</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Files\climate.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Files\controls.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Files\culvert.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Files\datetime.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Files\dwflow.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Files\dynwave.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Files\error.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Files\exfil.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Files\findroot.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Files\flowrout.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Files\forcmain.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Files\gage.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Files\gwater.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Files\hash.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Files\hotstart.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Files\iface.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Files\infil.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Files\inflow.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Files\input.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Files\inputrpt.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Files\keywords.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Files\kinwave.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Files\landuse.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Files\lid.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Files\lidproc.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Files\link.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Files\main.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Files\massbal.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Files\mathexpr.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Files\mempool.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Files\node.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Files\odesolve.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Files\output.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Files\project.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Files\qualrout.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Files\rain.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Files\rdii.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Files\report.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Files\roadway.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Files\routing.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Files\runoff.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Files\shape.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Files\snow.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Files\stats.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Files\statsrpt.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Files\subcatch.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Files\surfqual.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Files\swmm5.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Files\table.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Files\toposort.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Files\transect.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Files\treatmnt.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Files\xsect.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Files\CMakeLists.txt">
+      <Filter>Quelldateien</Filter>
+    </Text>
+    <Text Include="Files\Roadmap.txt">
+      <Filter>Quelldateien</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Files\consts.h">
+      <Filter>Quelldateien</Filter>
+    </ClInclude>
+    <ClInclude Include="Files\datetime.h">
+      <Filter>Quelldateien</Filter>
+    </ClInclude>
+    <ClInclude Include="Files\enums.h">
+      <Filter>Quelldateien</Filter>
+    </ClInclude>
+    <ClInclude Include="Files\error.h">
+      <Filter>Quelldateien</Filter>
+    </ClInclude>
+    <ClInclude Include="Files\exfil.h">
+      <Filter>Quelldateien</Filter>
+    </ClInclude>
+    <ClInclude Include="Files\findroot.h">
+      <Filter>Quelldateien</Filter>
+    </ClInclude>
+    <ClInclude Include="Files\funcs.h">
+      <Filter>Quelldateien</Filter>
+    </ClInclude>
+    <ClInclude Include="Files\globals.h">
+      <Filter>Quelldateien</Filter>
+    </ClInclude>
+    <ClInclude Include="Files\hash.h">
+      <Filter>Quelldateien</Filter>
+    </ClInclude>
+    <ClInclude Include="Files\headers.h">
+      <Filter>Quelldateien</Filter>
+    </ClInclude>
+    <ClInclude Include="Files\infil.h">
+      <Filter>Quelldateien</Filter>
+    </ClInclude>
+    <ClInclude Include="Files\keywords.h">
+      <Filter>Quelldateien</Filter>
+    </ClInclude>
+    <ClInclude Include="Files\lid.h">
+      <Filter>Quelldateien</Filter>
+    </ClInclude>
+    <ClInclude Include="Files\macros.h">
+      <Filter>Quelldateien</Filter>
+    </ClInclude>
+    <ClInclude Include="Files\mathexpr.h">
+      <Filter>Quelldateien</Filter>
+    </ClInclude>
+    <ClInclude Include="Files\mempool.h">
+      <Filter>Quelldateien</Filter>
+    </ClInclude>
+    <ClInclude Include="Files\objects.h">
+      <Filter>Quelldateien</Filter>
+    </ClInclude>
+    <ClInclude Include="Files\odesolve.h">
+      <Filter>Quelldateien</Filter>
+    </ClInclude>
+    <ClInclude Include="Files\swmm5.h">
+      <Filter>Quelldateien</Filter>
+    </ClInclude>
+    <ClInclude Include="Files\text.h">
+      <Filter>Quelldateien</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{7b008ff3-08fd-4e62-97c3-886da1b29637}</ProjectGuid>
+    <RootNamespace>SWMMUrbanEVAAvgTimestep</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="Files\.gitignore" />
+    <None Include="Files\README.md" />
+    <None Include="Files\xsect.dat" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Files\climate.c" />
+    <ClCompile Include="Files\controls.c" />
+    <ClCompile Include="Files\culvert.c" />
+    <ClCompile Include="Files\datetime.c" />
+    <ClCompile Include="Files\dwflow.c" />
+    <ClCompile Include="Files\dynwave.c" />
+    <ClCompile Include="Files\error.c" />
+    <ClCompile Include="Files\exfil.c" />
+    <ClCompile Include="Files\findroot.c" />
+    <ClCompile Include="Files\flowrout.c" />
+    <ClCompile Include="Files\forcmain.c" />
+    <ClCompile Include="Files\gage.c" />
+    <ClCompile Include="Files\gwater.c" />
+    <ClCompile Include="Files\hash.c" />
+    <ClCompile Include="Files\hotstart.c" />
+    <ClCompile Include="Files\iface.c" />
+    <ClCompile Include="Files\infil.c" />
+    <ClCompile Include="Files\inflow.c" />
+    <ClCompile Include="Files\input.c" />
+    <ClCompile Include="Files\inputrpt.c" />
+    <ClCompile Include="Files\keywords.c" />
+    <ClCompile Include="Files\kinwave.c" />
+    <ClCompile Include="Files\landuse.c" />
+    <ClCompile Include="Files\lid.c" />
+    <ClCompile Include="Files\lidproc.c" />
+    <ClCompile Include="Files\link.c" />
+    <ClCompile Include="Files\main.c" />
+    <ClCompile Include="Files\massbal.c" />
+    <ClCompile Include="Files\mathexpr.c" />
+    <ClCompile Include="Files\mempool.c" />
+    <ClCompile Include="Files\node.c" />
+    <ClCompile Include="Files\odesolve.c" />
+    <ClCompile Include="Files\output.c" />
+    <ClCompile Include="Files\project.c" />
+    <ClCompile Include="Files\qualrout.c" />
+    <ClCompile Include="Files\rain.c" />
+    <ClCompile Include="Files\rdii.c" />
+    <ClCompile Include="Files\report.c" />
+    <ClCompile Include="Files\roadway.c" />
+    <ClCompile Include="Files\routing.c" />
+    <ClCompile Include="Files\runoff.c" />
+    <ClCompile Include="Files\shape.c" />
+    <ClCompile Include="Files\snow.c" />
+    <ClCompile Include="Files\stats.c" />
+    <ClCompile Include="Files\statsrpt.c" />
+    <ClCompile Include="Files\subcatch.c" />
+    <ClCompile Include="Files\surfqual.c" />
+    <ClCompile Include="Files\swmm5.c" />
+    <ClCompile Include="Files\table.c" />
+    <ClCompile Include="Files\toposort.c" />
+    <ClCompile Include="Files\transect.c" />
+    <ClCompile Include="Files\treatmnt.c" />
+    <ClCompile Include="Files\xsect.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Files\CMakeLists.txt" />
+    <Text Include="Files\Roadmap.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Files\consts.h" />
+    <ClInclude Include="Files\datetime.h" />
+    <ClInclude Include="Files\enums.h" />
+    <ClInclude Include="Files\error.h" />
+    <ClInclude Include="Files\exfil.h" />
+    <ClInclude Include="Files\findroot.h" />
+    <ClInclude Include="Files\funcs.h" />
+    <ClInclude Include="Files\globals.h" />
+    <ClInclude Include="Files\hash.h" />
+    <ClInclude Include="Files\headers.h" />
+    <ClInclude Include="Files\infil.h" />
+    <ClInclude Include="Files\keywords.h" />
+    <ClInclude Include="Files\lid.h" />
+    <ClInclude Include="Files\macros.h" />
+    <ClInclude Include="Files\mathexpr.h" />
+    <ClInclude Include="Files\mempool.h" />
+    <ClInclude Include="Files\objects.h" />
+    <ClInclude Include="Files\odesolve.h" />
+    <ClInclude Include="Files\swmm5.h" />
+    <ClInclude Include="Files\text.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
